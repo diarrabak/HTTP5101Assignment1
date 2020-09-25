@@ -40,7 +40,7 @@ namespace Assignment1_B_Diarra.Controllers
 
         public string Get(int id)
         {
-            int numberOfPeople = id;                                          //Number of people to greet
+            int numberOfPeople = id;                                          //Number of people to greet for clarity
             string greeting = "Greetings to " + numberOfPeople + " people!";  //greetings to the specified number of people
             return greeting;
         }

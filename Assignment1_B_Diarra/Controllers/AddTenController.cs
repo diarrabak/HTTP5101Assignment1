@@ -27,7 +27,7 @@ namespace Assignment1_B_Diarra.Controllers
 
         public int Get(int id)
         {
-            int id_plus_10 = id + 10;
+            int id_plus_10 = id + 10;  //Adding 10 to the parameter id
             return id_plus_10;
         }
     }
